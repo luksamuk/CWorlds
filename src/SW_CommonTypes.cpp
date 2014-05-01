@@ -260,6 +260,13 @@ void vec2::truncate()
     this->y = int(this->y);
 }
 
+ostream& operator<<(ostream& oss, const vec2& v) {
+    char buffer[255];
+    sprintf(buffer, "{%0.04f, %0.04f}", v.x, v.y);
+    oss << buffer;
+    return oss;
+}
+
 //-----------------------------------------------
 //          vec2t class definitions             |
 //-----------------------------------------------

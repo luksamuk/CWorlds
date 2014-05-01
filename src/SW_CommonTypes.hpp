@@ -39,12 +39,7 @@ typedef int64_t qword_s;
 /// \brief A class representing a point in 2D space.
 class vec2
 {
-    friend ostream& operator<<(ostream& oss, const vec2& v) {
-        char buffer[255];
-        sprintf(buffer, "{%0.04f, %0.04f}", v.x, v.y);
-        //oss << buffer;
-        return oss;
-    }
+    friend ostream& operator<<(ostream& oss, const vec2& v);
 public:
     /// \brief Constructs class with null values.
     vec2();

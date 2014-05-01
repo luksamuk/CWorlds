@@ -1,8 +1,10 @@
 #ifndef BASE_HPP
 #define BASE_HPP
 
+#include <iostream>
 #include <cstdarg>
 #include <cstdio>
+#include <cstring>
 #include <string>
 
 #include <SDL2/SDL.h>
