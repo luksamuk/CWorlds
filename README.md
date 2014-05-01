@@ -28,8 +28,8 @@ all you need to do is install these packages:
 Then execute the steps above.
 
 For building on Windows, you might want to use an IDE such as Code::Blocks, with MinGW compiler, and the SDL2 and SDL2_image libraries, which can be found on these links:
-https://libsdl.org/
-https://www.libsdl.org/projects/SDL_image/
+- https://libsdl.org/
+- https://www.libsdl.org/projects/SDL_image/
 
 We'll be using the versions 2.0.X for everything.
 
