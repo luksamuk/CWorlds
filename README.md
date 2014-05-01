@@ -15,9 +15,9 @@ called obj.
 
 Then, go to the src folder and run make.
 
-<code>$ cd src
+<pre><code>$ cd src
 $ make
-</code>
+</code></pre>
 
 You need to have GCC 4.7 or up installed, along with the above dependancies.
 If you're running Ubuntu 13.10 "Saucy Salamander" or Ubuntu 14.04 "Trusty Tahr",
