@@ -1,4 +1,7 @@
 doc/html
 doc/latex
 bin/*
-obj/
+src/bin
+*.o
+*.depend
+*.layout
