@@ -8,6 +8,9 @@
 #include "SW_Base.hpp"
 #include <cstdint>
 
+/// \brief Use this function to output debug to the screen.
+int SW_Log(const char* fmt, ...);
+
 // Most part is a straight copy from OficinaFramework, but it doesn't
 // has to be a secret to anyone.
 

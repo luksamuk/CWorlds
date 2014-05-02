@@ -1,5 +1,18 @@
 #include "SW_CommonTypes.hpp"
 
+int SW_Log(const char* fmt, ...)
+{
+#ifdef DEBUG
+	va_list args;
+	va_start(args, fmt);
+	int ret = vprintf(fmt, args);
+	va_end(args);
+	return ret;
+#else
+	return 0;
+#endif
+}
+
 //-----------------------------------------------
 //           vec2 class definitions             |
 //-----------------------------------------------

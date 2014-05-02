@@ -10,9 +10,6 @@
 #include "SW_CommonTypes.hpp"
 #include "SW_TexturePool.hpp"
 
-/// \brief Use this function to output debug to the screen.
-int SW_Log(const char* fmt, ...);
-
 /// Tools for window management, such as window creation.
 class SW_Window {
 private:

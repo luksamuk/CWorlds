@@ -3,20 +3,6 @@
 
 #include "SonicWorlds.hpp"
 
-int SW_Log(const char* fmt, ...)
-{
-#ifdef DEBUG
-	va_list args;
-	va_start(args, fmt);
-	int ret = vprintf(fmt, args);
-	va_end(args);
-	return ret;
-#else
-	return 0;
-#endif
-}
-
-
 
 // class SW_Window
 SDL_Window*   SW_Window::m_window;
