@@ -36,3 +36,8 @@ We'll be using the versions 2.0.X for everything.
 There's also an optional Code::Blocks project for Linux, if you're not much into using the terminal.
 
 Stay sharp for updates on this README, as new libraries could be added.
+
+
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sonic Worlds</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/luksamuk/CWorlds" rel="dct:source">https://github.com/luksamuk/CWorlds</a>.
