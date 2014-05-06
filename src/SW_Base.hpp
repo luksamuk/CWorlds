@@ -8,7 +8,10 @@
 
 
 #include <string>
+#include <list>
 #include <map>
+#include <queue>
+#include <stack>
 
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_opengl.h>

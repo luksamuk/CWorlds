@@ -6,7 +6,8 @@
 
 // class SW_Window
 SDL_Window*   SW_Window::m_window;
-SDL_GLContext SW_Window::m_glcontext;
+SDL_GLContext SW_Window::m_glcontext,
+              SW_Window::m_loadcontext;
 
 void SW_Window::init(string name, bool vsync)
 {
@@ -24,7 +25,9 @@ void SW_Window::init(string name, bool vsync)
 	/*todo: icon setup*/
 
 	// OpenGL context creation
-	m_glcontext = SDL_GL_CreateContext(m_window);
+	SDL_GL_SetAttribute(SDL_GL_SHARE_WITH_CURRENT_CONTEXT, 1);
+	m_loadcontext = SDL_GL_CreateContext(m_window);
+	m_glcontext   = SDL_GL_CreateContext(m_window);
 
 	// Set VSync
 	if(vsync && SDL_GL_SetSwapInterval(1))
@@ -97,6 +100,7 @@ void SW_Window::update()
 
 void SW_Window::dispose()
 {
+    SDL_GL_DeleteContext(m_loadcontext);
 	SDL_GL_DeleteContext(m_glcontext);
 	SDL_DestroyWindow(m_window);
 }

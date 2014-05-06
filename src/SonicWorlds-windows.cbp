@@ -49,6 +49,7 @@
 		<Unit filename="SW_Base.hpp" />
 		<Unit filename="SW_CommonTypes.cpp" />
 		<Unit filename="SW_CommonTypes.hpp" />
+		<Unit filename="SW_ScreenManagement.cpp" />
 		<Unit filename="SW_TexturePool.cpp" />
 		<Unit filename="SW_TexturePool.hpp" />
 		<Unit filename="SonicWorlds.cpp" />
