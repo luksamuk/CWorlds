@@ -7,6 +7,8 @@ This is a deprecation notice. I've moved on a long time ago from this; also, I w
 
 Anyway, this is open so that people may take a look at what I did here.
 
+You may also want to take a look at [my new engine](https://luksamuk.github.io/oficina), which is currently (8/15/17) in development.
+
 
 Dependancies
 ------------
