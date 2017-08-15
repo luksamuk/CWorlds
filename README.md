@@ -1,5 +1,12 @@
-Sonic Worlds - C++ Port - v0.1
+CWorlds v0.1
 =======================
+
+THIS PROJECT IS DEPRECATED
+------------
+This is a deprecation notice. I've moved on a long time ago from this; also, I went ahead and remove my pretensious statement that this would be a C++ port of Sonic Worlds, because it never was.
+
+Anyway, this is open so that people may take a look at what I did here.
+
 
 Dependancies
 ------------
@@ -38,6 +45,6 @@ There's also an optional Code::Blocks project for Linux, if you're not much into
 Stay sharp for updates on this README, as new libraries could be added.
 
 
-
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Sonic Worlds</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/luksamuk/CWorlds" rel="dct:source">https://github.com/luksamuk/CWorlds</a>.
+License
+-------
+This project is now distributed under the MIT license.
